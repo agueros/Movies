@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.titulo-decorado {
+    text-align: center; /* centra los elementos */
+    margin-top: 50px; /* margen superior para separar del contenido anterior */
+    margin-bottom: 50px; /* margen inferior para separar del contenido siguiente */
+  }
+  
+  .linea {
+    width: 100px; /* ancho de la línea */
+    height: 1px; /* grosor de la línea */
+    background-color: #100A1F; /* color de la línea */
+    display: inline-block; /* hace que la línea sea un elemento en línea */
+    margin: 10px; /* espacio entre la línea y el texto */
+  }
+  
+  .titulouno{
+    display: inline-block; /* hace que el título sea un elemento en línea */
+    font-size: 36px; /* tamaño de la fuente */
+    font-weight: bold; 
+  }
+
+  #fecha{
+  
+    color: #100A1F;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.pelicula {
+	text-align: center;
+
+  }
+  
+  .poster {
+	width: 100%;
+	margin-bottom: 5px;
+	border-radius: 15px;
+  }
+  
+  .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+  
+  
+  /* Estilos de las series */
+  
+  .serie {
+    text-align: center;
+
+  }
+  
+  .portada {
+	width: 100%;
+	margin-bottom: 5px;
+	border-radius: 15px;
+  }
+  
+  .titulo-serie {
+	font-size: 16px;
+	font-weight: 600;
+  }
